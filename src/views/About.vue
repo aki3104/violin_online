@@ -1,6 +1,7 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="signin">
+    <h1>Violin Online ログイン</h1>
+    <Signin/>
   </div>
 </template>
 
@@ -10,7 +11,7 @@
 import Signin from '@/components/signin.vue'
 
 export default {
-  name: 'about',
+  name: 'signin',
   components: {
     Signin
   }
